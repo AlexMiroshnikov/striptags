@@ -38,7 +38,7 @@
         return {
             allowable_tags: parsed_tags.allowable_tags,
             forbidden_tags: parsed_tags.forbidden_tags,
-            tag_replacement,
+            tag_replacement: tag_replacement,
 
             state         : STATE_PLAINTEXT,
             tag_buffer    : '',
